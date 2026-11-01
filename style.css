@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.header {
+    padding: 30px 0;
+}
+
+.container,
+.containerNav,
+.containerBot {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.containerNav {
+    max-width: 1400px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Lato", sans-serif;
+    color: #060c31;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+.navLeft {
+    font-size: 34px;
+    line-height: 64px;
+    font-weight: 400;
+    font-family: "Crete Round", serif;
+}
+
+.navRight {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.navBtn {
+    border: 2px solid #ffb0b1;
+    border-radius: 23px;
+    padding: 10px 15px;
+}
+
+.mainBlock {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    align-items: center;
+    gap: 40px;
+    padding-top: 100px;
+}
+
+.mainText {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-size: 58px;
+    letter-spacing: 3px;
+    line-height: 64px;
+    color: #060c31;
+    font-weight: 400;
+    font-family: "Crete Round", serif;
+    max-width: 450px;
+}
+
+.smallText {
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 28px;
+    color: #060c31;
+    font-weight: 400;
+    font-family: "Lato", sans-serif;
+    max-width: 420px;
+    margin-bottom: 50px;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+
+button {
+    width: 152px;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-family: "Lato", sans-serif;
+}
+
+button.left {
+    color: #ffffff;
+    background-color: #233fe2;
+}
+
+button.right {
+    color: #060c31;
+    border: 1px solid #ffb0b1;
+    background-color: transparent;
+}
+
+.image {
+    text-align: center;
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+}
+.partners {
+    padding: 60px 0 40px;
+}
+
+.partner-logos {
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center;
+    gap: 50px;                        
+    flex-wrap: wrap;
+}
+
+.partner-item {
+    opacity: 0.6;
+    font-weight: bold;
+    font-size: 18px;
+    color: #888;
+}
